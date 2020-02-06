@@ -1,0 +1,97 @@
+    html {
+        background: url(/img/azul.jpeg) #ebeef1 repeat-x;
+    }
+    
+    body {
+        font-family: 'Lato', sans-serif;
+        font-size: 1.3rem;
+        line-height: 2;
+    }
+    /** Globales **/
+    
+    img {
+        max-width: 100%;
+        margin-left: 100px;
+        border: none;
+        background-image: none;
+    }
+    
+    .contenedor {
+        padding: 80px 80px 40px 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .color {
+        color: #0f54a3;
+    }
+    
+    .logo-instagram {
+        width: 400px;
+        height: 90px;
+        position: absolute;
+        top: 110px;
+        left: 400px;
+    }
+    
+    .fondo {
+        width: 830px;
+        height: 430px;
+        position: absolute;
+        top: 200px;
+        left: 400px;
+    }
+    
+    .texto-encima {
+        width: 800px;
+        height: 400px;
+        position: absolute;
+        top: 160px;
+        left: 520px;
+    }
+    /** Botones **/
+    
+    .boton-azul {
+        background-color: #4f85c2;
+        color: #ebeef1;
+        background-position: right;
+    }
+    
+    .login {
+        background-image: url(/img/Logo2.jpeg);
+        background-repeat: no-repeat;
+        height: 40px;
+        width: 90px;
+        background-position: left;
+    }
+    
+    .boton {
+        width: 800px;
+        height: 400px;
+        position: absolute;
+        top: 110px;
+        left: 1200px;
+    }
+    /** footer **/
+    
+    .navegacion a {
+        margin-right: 20px;
+        text-transform: uppercase;
+        text-decoration: none;
+        text-decoration-line: none;
+        font-size: 1rem;
+        color: #073e7c;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    footer {
+        padding: 60px 400px 40px 500px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #9ea1a3;
+    }
+    
+    .copyright {
+        font-size: .9rem;
+    }
